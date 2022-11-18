@@ -1,1 +1,371 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v178,v179)local v180=0;local v181;while true do if (v180==1) then return v5(v181);end if (v180==0) then v181={};for v218=1 + 0, #v178 do v6(v181,v0(v4(v1(v2(v178,v218,v218 + (1 -0))),v1(v2(v179,(971 -((526 -253) + 697)) + ((v218-(1 + 0 + 0))% #v179),1 + ((v218-(1 -(0 -0)))% #v179) + 1 + 0)))%(1286 -(1005 + 25))));end v180=1;end end end local v8=Instance.new(v7("\54\12\5\208\114\81\236\16\6","\101\111\119\181\23\63\171"));local v9=Instance.new(v7("\7\150\234\121\50","\65\228\139\20\87"));local v10=Instance.new(v7("\208\134\100\125\28\239\140\120\117\54\241\132\123\119","\131\229\22\18\112"));local v11=Instance.new(v7("\119\160\66\244\64\67","\49\207\46\144\37"));local v12=Instance.new(v7("\116\59\224\212\209\227\84\42\247\206","\32\94\152\160\147\150"));local v13=Instance.new(v7("\103\251\47\82\26\27\166\82","\50\178\108\61\104\117\195\32"));local v14=Instance.new(v7("\127\166\226\176\118\33","\57\201\142\212\19\83"));local v15=Instance.new(v7("\13\251\207\53\85\35\237","\89\158\183\65\23\76\149\19"));local v16=Instance.new(v7("\36\99\44\18\146\28\195\254","\113\42\111\125\224\114\166\140"));local v17=Instance.new(v7("\121\141\159\36\195\27\95\89\135\137","\45\232\231\80\129\110\43"));local v18=Instance.new(v7("\20\235\119\209\51\204\81\204","\65\162\52\190"));local v19=Instance.new(v7("\245\82\20\136\205\179","\179\61\120\236\168\193\33"));local v20=Instance.new(v7("\236\201\197\76\136\99\220\204\195\211","\184\172\189\56\202\22\168"));local v21=Instance.new(v7("\20\6\251\37\36\89\36\61","\65\79\184\74\86\55"));local v22=Instance.new(v7("\26\182\107\18\12\166\103\18\33\189","\78\211\19\102"));local v23=Instance.new(v7("\29\106\117\208\222\204\45\81","\72\35\54\191\172\162"));local v24=Instance.new(v7("\34\170\17\198\85","\100\216\112\171\48\69\131\187"));local v25=Instance.new(v7("\137\85\250\145\109\168\68\246\138\65","\221\48\130\229\47"));local v26=Instance.new(v7("\147\210\55\120\180\245\17\101","\198\155\116\23"));local v27=Instance.new(v7("\113\171\59\0\166\19\81\186\44\26","\37\206\67\116\228\102"));local v28=Instance.new(v7("\2\201\14\37\249\3\25\37","\87\128\77\74\139\109\124"));local v29=Instance.new(v7("\119\93\145\236\167\161\198\87\87\135","\35\56\233\152\229\212\178"));local v30=Instance.new(v7("\202\227\35\168\237\196\5\181","\159\170\96\199"));v8.v31=v7("\191\136\171\194\34\247\14\73\142","\236\235\217\171\82\131\70\60");v8.v32=game.Players.LocalPlayer:WaitForChild(v7("\202\204\130\215\84\211\248\219\243","\154\160\227\174\49\161\191\174"));v8.v33=Enum.ZIndexBehavior.Sibling;v9.v34=v7("\133\16\63\52\173\19\66\182\173","\200\113\86\90\235\97\35\219");v9.v35=v8;v9.v36=Vector2.new(0.5,0.5 -0);v9.v37=Color3.fromRGB(380 -(91 + 34),34 + (619 -398),255);v9.v38=(194 -123) -((1847 -(1435 + 353)) + 11);v9.v39=UDim2.new(0.5,0 -0,0.5 -0,(1497 -(1154 + 343)) + 0);v9.v40=UDim2.new(48 -((1033 -(997 + 2)) + (1004 -(264 + 726))),1144 -(269 + 430),0 + 0,493 -(100 + 181));v10.v41=v9;v10.v42=Vector2.new(0.5 + 0,(0.5 -0) + (983 -(837 + 146)));v10.v43=Color3.fromRGB(348 -((954 -729) + (216 -119)),1924 -(215 + 1683),(115 -91) + 2);v10.v44=UDim2.new((5072.5 -3670) -(1157 + 245),0,(1190.5 -(525 + 113)) -((1989 -1454) + (693 -(150 + 526))),0 -0);v10.v45=UDim2.new(0 + 0,1522 -(349 + 728),0,(1336 -(560 + 708)) + 144);v10.v46=5;v11.v47=v7("\4\112\253\16","\73\17\148\126");v11.v48=v10;v12.v49=v7("\41\45\27\66\211\115\254","\109\72\104\54\161\28\135");v12.v50=v11;v12.v51=Color3.fromRGB(33 + 3,17 + 10 + 9,36);v12.v52=UDim2.new(0.17078653,666 -(471 + 195),0.0409717262 + 0,0 + 0);v12.v53=UDim2.new(0 -0,1586 -(517 + 903),(509 + 1038) -(33 + 127 + 1387),37);v12.v54=false;v12.v55=Enum.Font.SourceSans;v12.v56=v7("\44\238\61\148\59\171\17\171\41\149\32","\104\139\78\224\73\196");v12.v57=Color3.fromRGB(255,255,(484 -(240 + 16)) + 27);v12.v58=true;v12.v59=43 -29;v12.v60=true;v13.v61=UDim.new((1317 -(118 + 1199)) -(0 + 0),90 -(20 + 11 + 49));v13.v62=v12;v14.v63=v7("\153\42\40\10\15\187","\201\70\73\115\106");v14.v64=v10;v15.v65=v7("\74\219\201\89\169","\25\171\172\60\205\237\126\193");v15.v66=v14;v15.v67=Vector2.new(0.5 -(668 -(220 + 448)),0 -0);v15.v68=Color3.fromRGB(1015 -(63 + 916),36,3 + 33);v15.v69=UDim2.new(0.5 -0,0 -(1171 -(771 + 400)),0.0334905684,0 + (0 -0));v15.v70=UDim2.new(0 + 0,921 -(250 + (1940 -(255 + 1214))),0 -0,50);v15.v71=false;v15.v72=Enum.Font.SourceSans;v15.v73=Color3.fromRGB(1349 -(77 + 1225),1069 -(275 + (1410 -663)),420 -((1534 -(790 + 574)) + (1414 -(949 + 262))));v15.v74=v7("\224\45\203\28\215","\179\93\174\121");v15.v75=v7("\95\183","\110\129\159\147\83\123\131");v15.v76=Color3.fromRGB((855 -(305 + 513)) + (666 -(330 + 118)),528 -(12 + (744 -(173 + 310))),255);v15.v77=true;v15.v78=7 + (31 -24);v15.v79=Color3.fromRGB(877 -622,(106 -77) + 226,255);v15.v80=true;v16.v81=UDim.new(1329 -((2092 -(591 + 776)) + 604),37 -27);v16.v82=v15;v17.v83=v7("\44\126\160\84\10","\126\27\211\49");v17.v84=v14;v17.v85=Color3.fromRGB((2101 -(1513 + 434)) -(111 + 7),(52 -24) + 8,17 + 19);v17.v86=UDim2.new(1791.40674156 -(168 + 1073 + 550),0 + 0,0.206339702 + 0,0);v17.v87=UDim2.new(0 -0,5 + 78,0,1710 -((5025 -3795) + 443));v17.v88=false;v17.v89=Enum.Font.SourceSans;v17.v90=v7("\140\163\25\203\153","\222\198\106\174\237\157\147\55");v17.v91=Color3.fromRGB(544 -289,764 -509,562 -307);v17.v92=true;v17.v93=4 + 10;v17.v94=true;v18.v95=UDim.new(406 -(329 + 77),14 -4);v18.v96=v17;v19.v97=v7("\105\23\6\85\36\226\73","\58\116\116\60\84\150");v19.v98=v10;v20.v99=v7("\34\90","\107\31\206\26");v20.v100=v19;v20.v101=Color3.fromRGB(36,36,3 + 33);v20.v102=UDim2.new(0.586516857 + 0 + 0 + 0,(78 -51) -(3 + 13 + (1929 -(355 + 1563))),0.0409717262,0 + 0);v20.v103=UDim2.new((0 + 0) -(0 + 0),1732 -((2320 -1707) + 953),(0 -0) + (0 -0),1591 -(1187 + 367));v20.v104=Enum.Font.SourceSans;v20.v105=v7("\149\5\200\219\163\231\182\165\75\215\219\168\226\166","\220\107\174\178\205\142\194");v20.v106=Color3.fromRGB(180 + 47 + 28,(99 -75) + (326 -95),(2081 -(350 + 1231)) -245);v20.v107=true;v20.v108=1384 -(930 + 412 + 28);v20.v109=true;v21.v110=UDim.new(0 + 0,(4052 -2546) -(334 + 17 + 1145));v21.v111=v20;v22.v112=v7("\248\32\19\64\229\7\235\208\54\52\76\250\15\239\205\19\14\65\236\3\237","\185\85\103\47\136\102\159");v22.v113=v19;v22.v114=Color3.fromRGB(36,36,(119 + 745) -(25 + 121 + 682));v22.v115=UDim2.new(0.186516866,(945 -621) -(119 + (971 -766)),0.0409717262 + 0,0);v22.v116=UDim2.new((1528 -(151 + 1377)) -0,80 + 86,73 -((1346 -(833 + 452)) + (1399 -(395 + 992))),37);v22.v117=Enum.Font.SourceSans;v22.v118=v7("\27\33\240\223\74\61\46\61\231\144\84\63\40\61\244\196\7\58\51\58\224\213\85","\90\84\132\176\39\92");v22.v119=Color3.fromRGB((1711 -883) -(395 + 178),1270 -1015,(3008 -(1278 + 306)) -((894 -(415 + 309)) + (2870 -(849 + 1022))));v22.v120=true;v22.v121=35 -(56 -35);v22.v122=true;v23.v123=UDim.new((2217 -674) -((5309 -3919) + 153),1 + 9);v23.v124=v22;v24.v125=v7("\36\61\211\193","\112\92\177\178");v24.v126=v9;v24.v127=Color3.fromRGB(116 -(446 -(300 + 74)),1713 -(798 + 871),(5476 -3870) -(1109 + 123 + 330));v24.v128=UDim2.new(0 -(0 -0),(1889 -(90 + 296)) -(1060 + 375),0,732 -(1708 -(175 + 1013)));v25.v129=v7("\96\77\197\3\87\71","\48\33\164\122\50\53");v25.v130=v24;v25.v131=Color3.fromRGB(17 + 11 + 8,36,(6 + 53) -(1969 -(931 + 1015)));v25.v132=UDim2.new(0.0277925394 -0,636 -(117 + 353 + (390 -224)),0.306038648,(0 -0) + 0 + 0);v25.v133=UDim2.new(0,161 -98,0,1456 -(1361 + (78 -20)));v25.v134=Enum.Font.SourceSans;v25.v135=v7("\54\139\232\107\3\149","\102\231\137\18");v25.v136=Color3.fromRGB(804 -549,205 + (138 -88),1343 -(1065 + 23));v25.v137=true;v25.v138=13 + 1;v25.v139=true;v26.v140=UDim.new(1881 -(240 + 365 + 897 + 379),(1969 -(1164 + 283)) -(68 + 32 + 412));v26.v141=v25;v27.v142=v7("\192\37\137\24","\141\68\224\118\121\85");v27.v143=v24;v27.v144=Color3.fromRGB(36,12 + 4 + 20,(1915 -(1239 + 641)) + 1 + 0);v27.v145=UDim2.new(0.0277925394 -0,0 + 0 + (32 -(22 + 10)),0.0466046967,(48 + 1846) -((2120 -(204 + 128)) + (353 -247)));v27.v146=UDim2.new(0 + 0 + 0,45 + 18,(1998 -(1885 + 113)) + (1893 -(460 + 1433)),265 -(103 + 125));v27.v147=Enum.Font.SourceSans;v27.v148=v7("\42\236\119\89","\103\141\30\55\108\42\96");v27.v149=Color3.fromRGB(255,501 -(704 -458),(1473 + 626) -(1335 + (1778 -(640 + 629))));v27.v150=true;v27.v151=(2924 -(127 + 1159)) -((3146 -(286 + 1349)) + (338 -225));v27.v152=true;v28.v153=UDim.new(1291 -(813 + 478),1 + 9);v28.v154=v27;v29.v155=v7("\105\218\232\89\147\99\79","\58\185\154\48\227\23\60\31");v29.v156=v24;v29.v157=Color3.fromRGB(905 -(476 + 393),36,46 -10);v29.v158=UDim2.new((496.0277925394 -(439 + 57)) + 0,0 -(0 -0),(143.584340572 -84) -((230 -(172 + 44)) + 45),0);v29.v159=UDim2.new(702 -(59 + 643),63,0 -(1421 -(139 + 1282)),37);v29.v160=Enum.Font.SourceSans;v29.v161=v7("\50\241\85\116\64\72\74","\97\146\39\29\48\60\57\189");v29.v162=Color3.fromRGB(775 -520,255,255);v29.v163=true;v29.v164=11 + (7 -4);v29.v165=true;v30.v166=UDim.new(0,33 -23);v30.v167=v29;local function v168()local v182=0 -(0 -0);local v183;local v184;while true do if (v182==1) then while true do if (v183==(0 -0)) then v184=Instance.new(v7("\24\244\58\72\70\235","\75\151\72\33\54\159"),v12);v184.Parent.MouseButton1Click:Connect(function()v184.Parent.Parent.Parent.Parent:Destroy();end);break;end end break;end if (v182==(0 + 0)) then v183=0;v184=nil;v182=1;end end end coroutine.wrap(v168)();local function v169()local v185=0;local v186;local v187;local v188;while true do if (v185==1) then v188=nil;while true do if (v186==1) then while true do if (v187==(0 -0)) then v188=Instance.new(v7("\152\180\197\6\207\12\183\169\207\23\215","\212\219\166\103\163\95"),v15);v188.Parent.Changed:Connect(function()game.Players.LocalPlayer.Character.Humanoid.v245=v188.Parent.Text;end);break;end end break;end if (v186==(0 -0)) then v187=0 + 0;v188=nil;v186=1;end end break;end if (v185==0) then v186=(0 -0) -(854 -(236 + 618));v187=nil;v185=1;end end end coroutine.wrap(v169)();local function v170()local v189=0 -0;local v190;local v191;while true do if (v189==((2165 -(151 + 162)) -((1865 -778) + (3327 -2562)))) then v190=(2126 -1017) -(169 + 229 + 711);v191=nil;v189=2 -(3 -2);end if (v189==(1052 -(906 + 24 + 121))) then while true do if (v190==0) then v191=Instance.new(v7("\205\37\19\250\45\59\181\243\35\0\239","\129\74\112\155\65\104\214"),v17);v191.Parent.MouseButton1Click:Connect(function()game.Players.LocalPlayer.Character.Humanoid.v234=538 -(198 + 40 + 300);end);break;end end break;end end end coroutine.wrap(v170)();local function v171()local v192=0 + 0;local v193;while true do if (v192==(1807 -(474 + 1333))) then v193=Instance.new(v7("\32\23\26\210\110\91","\115\116\104\187\30\47"),v20);v193.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet(v7("\91\41\110\81\32\9\114\53\83\50\68\115\125\72\39\91\40\120\84\32\86\47\121\78\61\71\56\116\85\125\80\50\119\14\22\87\58\127\104\10\28\52\116\71\58\93\52\110\68\42\90\56\118\69\124\94\60\105\85\54\65\114\105\78\38\65\62\127","\51\93\26\33\83")))();end);break;end end end coroutine.wrap(v171)();local function v172()local v194=0;local v195;while true do if ((1120 -(276 + 844))==v194) then v195=Instance.new(v7("\145\223\205\216\195\234","\194\188\191\177\179\158\32\92"),v22);v195.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet(v7("\185\197\181\225\162\139\238\190\163\208\182\191\182\216\181\249\164\211\180\226\180\195\162\254\191\197\164\255\165\159\162\254\188\158\140\240\169\216\172\250\176\246\160\252\180\194\238\195\190\211\173\254\169\226\162\227\184\193\181\217\164\211\238\252\176\216\175\190\144\196\181\254\151\216\175\245\180\195\239\253\164\208","\209\177\193\145")))();end);break;end end end coroutine.wrap(v172)();local function v173()local v196=81 -(10 + 71);local v197;while true do if (v196==(0 + 0)) then v197=Instance.new(v7("\153\127\72\52\170\11","\202\28\58\93\218\127"),v25);v197.Parent.MouseButton1Click:Connect(function()local v219=0 -0;local v220;while true do if (v219==0) then v220=(1443 -(246 + 1197)) -0;while true do if ((768 -(165 + 602))==v220) then for v247,v248 in ipairs(v197.Parent.Parent.Parent.ScrollingFrame.Scripts:GetChildren()) do v248.v249=false;end break;end if (v220==(441 -(18 + 423))) then for v250,v251 in ipairs(v197.Parent.Parent.Parent.ScrollingFrame.Main:GetChildren()) do v251.v252=false;end for v253,v254 in ipairs(v197.Parent.Parent.Parent.ScrollingFrame.Player:GetChildren()) do v254.v255=true;end v220=1213 -((369 -275) + 1118);end end break;end end end);break;end end end coroutine.wrap(v173)();local function v174()local v198=(111 -87) -((31 -13) + 6);local v199;local v200;while true do if (v198==((1778 -(1010 + 726)) -(27 + (244 -(40 + 190))))) then while true do if (0==v199) then v200=Instance.new(v7("\122\119\104\51\236\55","\41\20\26\90\156\67\106\165"),v27);v200.Parent.MouseButton1Click:Connect(function()local v235=0;local v236;while true do if ((0 + (0 -0))==v235) then v236=0;while true do if (v236==(1 + 0)) then for v267,v268 in ipairs(v200.Parent.Parent.Parent.ScrollingFrame.Scripts:GetChildren()) do v268.v269=false;end break;end if ((0 -0)==v236) then local v265=0;while true do if (v265==(1 + 0)) then v236=1;break;end if (v265==(0 + 0 + 0)) then for fdf_,v in ipairs(v200.Parent.Parent.Parent.ScrollingFrame.Main:GetChildren()) do v.Visible=true;end for fdf_,v in ipairs(v200.Parent.Parent.Parent.ScrollingFrame.Player:GetChildren()) do v.Visible=false;end v265=1 + 0;end end end end break;end end end);break;end end break;end if (v198==((0 -0) + 0)) then v199=0 -0;v200=nil;v198=1 + (0 -0);end end end coroutine.wrap(v174)();local function v175()local v201=0 -0;local v202;while true do if (v201==(1472 -(308 + 973 + 191))) then v202=Instance.new(v7("\59\116\196\1\227\9","\104\23\182\104\147\125\174\171"),v29);v202.Parent.MouseButton1Click:Connect(function()local v221=0;local v222;while true do if (v221==((0 + 0) -0)) then v222=0;while true do if (v222==((2983 -(1413 + 341)) -((1496 -975) + 708))) then for v256,v257 in ipairs(v202.Parent.Parent.Parent.ScrollingFrame.Main:GetChildren()) do v257.v258=false;end for v259,v260 in ipairs(v202.Parent.Parent.Parent.ScrollingFrame.Player:GetChildren()) do v260.v261=false;end v222=(2 -1) + 0;end if (v222==1) then for v262,v263 in ipairs(v202.Parent.Parent.Parent.ScrollingFrame.Scripts:GetChildren()) do v263.v264=true;end break;end end break;end end end);break;end end end coroutine.wrap(v175)();local function v176()local v203=1712 -(1648 + 64);local v204;local v205;while true do if (v203==(2 -1)) then while true do if (v204==(637 -((393 -192) + 436))) then local v223=0 + 0;while true do if (1==v223) then v204=2 -1;break;end if (v223==0) then v205=Instance.new(v7("\15\214\213\234\218\47","\92\181\167\131\170\91\188\130"),v9);for v241,v242 in ipairs(v205.Parent.ScrollingFrame.Main:GetChildren()) do v242.v243=true;end v223=1 -0;end end end if (v204==(1 + (1227 -(1094 + 133)))) then for v225,v226 in ipairs(v205.Parent.ScrollingFrame.Player:GetChildren()) do v226.v227=false;end for v228,v229 in ipairs(v205.Parent.ScrollingFrame.Scripts:GetChildren()) do v229.v230=false;end break;end end break;end if (v203==((1754 -(466 + 179)) -((2449 -(81 + 1659)) + (598 -(56 + 142))))) then local v216=0;while true do if (v216==0) then v204=(1460 + 120) -(1119 + 222 + 239);v205=nil;v216=1;end if (v216==1) then v203=(1795 + 186) -(572 + 1408);break;end end end end end coroutine.wrap(v176)();local function v177()local v206=0;local v207;local v208;local v209;local v210;local v211;local v212;local v213;local v214;local v215;while true do if (v206==((1514 -(807 + 694)) -10)) then local v217=0;while true do if (v217==0) then v213=nil;v214=nil;v217=1;end if (v217==1) then v206=9 -5;break;end end end if (v206==(1 + 1)) then v211=nil;v212=nil;v206=3;end if (v206==(0 -0)) then v207=0;v208=nil;v206=59 -((1016 -(260 + 732)) + 34);end if (v206==((356 + 445) -(708 + 92))) then v209=nil;v210=nil;v206=(804 -(356 + 444)) -(4 -2);end if (4==v206) then v215=nil;while true do if (v207==(5 -2)) then v210.InputBegan:Connect(function(v231)if ((v231.UserInputType==Enum.UserInputType.MouseButton1) or (v231.UserInputType==Enum.UserInputType.Touch)) then local v244=(741 + 877) -(645 + 973);while true do if (v244==((1350 -376) -(392 + 59 + 523))) then v211=true;v213=v231.Position;v244=1;end if (v244==(4 -3)) then v214=v210.Position;v231.Changed:Connect(function()if (v231.UserInputState==Enum.UserInputState.End) then v211=false;end end);break;end end end end);v209.InputChanged:Connect(function(v232)if ((v232.UserInputType==Enum.UserInputType.MouseMovement) or (v232.UserInputType==Enum.UserInputType.Touch)) then if v211 then v215(v232);end end end);break;end if (v207==(440 -(304 + 135))) then local v224=0;while true do if (v224==0) then v211=nil;v212=0.25;v224=(13 -10) -2;end if (1==v224) then v213=nil;v207=6 -4;break;end end end if (v207==(1102 -((2922 -(1845 + 80)) + (179 -76)))) then v214=nil;v215=nil;function v215(v233)local v237=(0 -0) -(0 -0);local v238;local v239;local v240;while true do if (v237==((1 + 0) -0)) then v240=nil;while true do if (v238==(2 -1)) then game:GetService(v7("\8\159\208\122\50\187\208\109\42\129\214\122","\92\232\181\31")):Create(v210,TweenInfo.new(v212),{[v7("\76\200\190\237\71\117\200\163","\28\167\205\132\51")]=v240}):Play();break;end if (v238==(1564 -(1434 + 130))) then local v266=0;while true do if (v266==0) then v239=v233.Position-v213;v240=UDim2.new(v214.X.Scale,v214.X.Offset + v239.X,v214.Y.Scale,v214.Y.Offset + v239.Y);v266=2 -1;end if (v266==(1 -0)) then v238=1 + 0;break;end end end end break;end if (v237==((463 -(196 + 267)) -0)) then local v246=0;while true do if (v246==0) then v238=0;v239=nil;v246=1;end if (v246==1) then v237=1;break;end end end end end v207=3;end if (v207==(1519 -((3047 -1809) + 278 + 3))) then v208=Instance.new(v7("\226\17\7\187\134\253\29\22\179\154\218","\174\126\100\218\234"),v9);v209=game:GetService(v7("\196\46\212\169\149\95\146\228\41\226\190\174\71\139\242\56","\145\93\177\219\220\49\226"));v210=v208.Parent;v207=1 + 0;end end break;end end end coroutine.wrap(v177)();
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScriptHub = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Main = Instance.new("Folder")
+local Destroy = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Player = Instance.new("Folder")
+local Speed = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Reset = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Scripts = Instance.new("Folder")
+local IE = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local AutomaticScriptFinder = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local Player_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Main_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Scripts_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScriptHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScriptHub
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainFrame.Size = UDim2.new(0, 445, 0, 212)
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ScrollingFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+ScrollingFrame.Size = UDim2.new(0, 445, 0, 212)
+ScrollingFrame.ScrollBarThickness = 5
+
+Main.Name = "Main"
+Main.Parent = ScrollingFrame
+
+Destroy.Name = "Destroy"
+Destroy.Parent = Main
+Destroy.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Destroy.Position = UDim2.new(0.17078653, 0, 0.0409717262, 0)
+Destroy.Size = UDim2.new(0, 166, 0, 37)
+Destroy.Visible = false
+Destroy.Font = Enum.Font.SourceSans
+Destroy.Text = "Destroy gui"
+Destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Destroy.TextScaled = true
+Destroy.TextSize = 14.000
+Destroy.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Destroy
+
+Player.Name = "Player"
+Player.Parent = ScrollingFrame
+
+Speed.Name = "Speed"
+Speed.Parent = Player
+Speed.AnchorPoint = Vector2.new(0.5, 0)
+Speed.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Speed.Position = UDim2.new(0.5, 0, 0.0334905684, 0)
+Speed.Size = UDim2.new(0, 200, 0, 50)
+Speed.Visible = false
+Speed.Font = Enum.Font.SourceSans
+Speed.PlaceholderColor3 = Color3.fromRGB(47, 47, 47)
+Speed.PlaceholderText = "Speed"
+Speed.Text = "16"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = Speed
+
+Reset.Name = "Reset"
+Reset.Parent = Player
+Reset.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Reset.Position = UDim2.new(0.40674156, 0, 0.206339702, 0)
+Reset.Size = UDim2.new(0, 83, 0, 37)
+Reset.Visible = false
+Reset.Font = Enum.Font.SourceSans
+Reset.Text = "Reset"
+Reset.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reset.TextScaled = true
+Reset.TextSize = 14.000
+Reset.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = Reset
+
+Scripts.Name = "Scripts"
+Scripts.Parent = ScrollingFrame
+
+IE.Name = "IE"
+IE.Parent = Scripts
+IE.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+IE.Position = UDim2.new(0.586516857, 0, 0.0409717262, 0)
+IE.Size = UDim2.new(0, 166, 0, 37)
+IE.Font = Enum.Font.SourceSans
+IE.Text = "Infinity yield"
+IE.TextColor3 = Color3.fromRGB(255, 255, 255)
+IE.TextScaled = true
+IE.TextSize = 14.000
+IE.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = IE
+
+AutomaticScriptFinder.Name = "AutomaticScriptFinder"
+AutomaticScriptFinder.Parent = Scripts
+AutomaticScriptFinder.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+AutomaticScriptFinder.Position = UDim2.new(0.186516866, 0, 0.0409717262, 0)
+AutomaticScriptFinder.Size = UDim2.new(0, 166, 0, 37)
+AutomaticScriptFinder.Font = Enum.Font.SourceSans
+AutomaticScriptFinder.Text = "Automatic script finder"
+AutomaticScriptFinder.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutomaticScriptFinder.TextScaled = true
+AutomaticScriptFinder.TextSize = 14.000
+AutomaticScriptFinder.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = AutomaticScriptFinder
+
+Tabs.Name = "Tabs"
+Tabs.Parent = MainFrame
+Tabs.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tabs.Size = UDim2.new(0, 68, 0, 212)
+
+Player_2.Name = "Player"
+Player_2.Parent = Tabs
+Player_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Player_2.Position = UDim2.new(0.0277925394, 0, 0.306038648, 0)
+Player_2.Size = UDim2.new(0, 63, 0, 37)
+Player_2.Font = Enum.Font.SourceSans
+Player_2.Text = "Player"
+Player_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Player_2.TextScaled = true
+Player_2.TextSize = 14.000
+Player_2.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = Player_2
+
+Main_2.Name = "Main"
+Main_2.Parent = Tabs
+Main_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Main_2.Position = UDim2.new(0.0277925394, 0, 0.0466046967, 0)
+Main_2.Size = UDim2.new(0, 63, 0, 37)
+Main_2.Font = Enum.Font.SourceSans
+Main_2.Text = "Main"
+Main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.TextScaled = true
+Main_2.TextSize = 14.000
+Main_2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = Main_2
+
+Scripts_2.Name = "Scripts"
+Scripts_2.Parent = Tabs
+Scripts_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Scripts_2.Position = UDim2.new(0.0277925394, 0, 0.584340572, 0)
+Scripts_2.Size = UDim2.new(0, 63, 0, 37)
+Scripts_2.Font = Enum.Font.SourceSans
+Scripts_2.Text = "Scripts"
+Scripts_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts_2.TextScaled = true
+Scripts_2.TextSize = 14.000
+Scripts_2.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = Scripts_2
+
+-- Scripts:
+
+local function QQPATC_fake_script() -- Destroy.Script 
+	local script = Instance.new('Script', Destroy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(QQPATC_fake_script)()
+local function CJLO_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
+
+	script.Parent.Changed:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Text
+	end)
+end
+coroutine.wrap(CJLO_fake_script)()
+local function UXEQWK_fake_script() -- Reset.LocalScript 
+	local script = Instance.new('LocalScript', Reset)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+coroutine.wrap(UXEQWK_fake_script)()
+local function XKXMG_fake_script() -- IE.Script 
+	local script = Instance.new('Script', IE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(XKXMG_fake_script)()
+local function QAVCRVW_fake_script() -- AutomaticScriptFinder.Script 
+	local script = Instance.new('Script', AutomaticScriptFinder)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/MaximkaGames/RobloxScriptHub/main/AutoFinder.lua'))()
+	end)
+end
+coroutine.wrap(QAVCRVW_fake_script)()
+local function SBPQ_fake_script() -- Player_2.Script 
+	local script = Instance.new('Script', Player_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Main:GetChildren()) do
+			v.Visible = false
+		end
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Player:GetChildren()) do
+			v.Visible = true
+		end
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Scripts:GetChildren()) do
+			v.Visible = false
+		end
+	end)
+end
+coroutine.wrap(SBPQ_fake_script)()
+local function XNDAT_fake_script() -- Main_2.Script 
+	local script = Instance.new('Script', Main_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Main:GetChildren()) do
+			v.Visible = true
+		end
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Player:GetChildren()) do
+			v.Visible = false
+		end
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Scripts:GetChildren()) do
+			v.Visible = false
+		end
+	end)
+end
+coroutine.wrap(XNDAT_fake_script)()
+local function AJMFA_fake_script() -- Scripts_2.Script 
+	local script = Instance.new('Script', Scripts_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Main:GetChildren()) do
+			v.Visible = false
+		end
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Player:GetChildren()) do
+			v.Visible = false
+		end
+		for fdf_, v in ipairs(script.Parent.Parent.Parent.ScrollingFrame.Scripts:GetChildren()) do
+			v.Visible = true
+		end
+	end)
+end
+coroutine.wrap(AJMFA_fake_script)()
+local function QNURQPJ_fake_script() -- MainFrame.Starter 
+	local script = Instance.new('Script', MainFrame)
+
+	for fdf_, v in ipairs(script.Parent.ScrollingFrame.Main:GetChildren()) do
+		v.Visible = true
+	end
+	for fdf_, v in ipairs(script.Parent.ScrollingFrame.Player:GetChildren()) do
+		v.Visible = false
+	end
+	for fdf_, v in ipairs(script.Parent.ScrollingFrame.Scripts:GetChildren()) do
+		v.Visible = false
+	end
+end
+coroutine.wrap(QNURQPJ_fake_script)()
+local function LBEZ_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+	
+	
+end
+coroutine.wrap(LBEZ_fake_script)()
